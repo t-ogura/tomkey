@@ -10,6 +10,8 @@ manifest:
       url-base: https://github.com/englmaxi
     - name: te9no
       url-base: https://github.com/te9no
+    - name: prospector
+      url-base: https://github.com/t-ogura
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -21,5 +23,9 @@ manifest:
     - name: zmk-dongle-display
       remote: te9no
       revision: main
+    - name: prospector-zmk-module
+      remote: prospector
+      revision: feature/yads-widget-integration
+      path: modules/prospector-zmk-module
   self:
     path: config
